@@ -254,7 +254,7 @@ public class ItemDAOImpl implements ItemDAO {
         boolean flag = true;
         try {
 
-        	 String sql = "INSERT INTO `clothing`.`item` (`style`, `price`,`item_name`,`category`) VALUES (" + style + "," + price + ",'" + name + "'," + category + ");";
+        	 String sql = "INSERT INTO `clothing`.`item` (`style`, `price`,`item_name`,`category`,`seller`) VALUES (" + style + "," + price + ",'" + name + "'," + category + "," + sellerId + ");";
         	 Statement statement = SqlUtil.getConnection().createStatement();
 
             statement.executeUpdate(sql, Statement.RETURN_GENERATED_KEYS);

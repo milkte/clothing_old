@@ -18,7 +18,7 @@
     </head>
     <body>
         <div class="col-md-10 col-lg-10">
-            <h1 style="color:darkgray; " class="col-md-12 col-lg-12" >Items</h1>
+            <h1 style="color:darkgray; " class="col-md-12 col-lg-12" >Items_1</h1>
         </div>
         <%
             String msg = (String) request.getAttribute("msg");

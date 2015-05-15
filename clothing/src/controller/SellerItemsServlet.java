@@ -52,7 +52,7 @@ public class SellerItemsServlet extends HttpServlet {
             String json = gson.toJson(itemsLikeName);
             response.getWriter().write(json);
             return;
-        } else if (seller != null) {
+        } else if (seller != "") {
             List<Item> items = new ItemDAOImpl().getItemBySeller(Integer.parseInt(seller));
             String json = gson.toJson(items);
             response.getWriter().write(json);
