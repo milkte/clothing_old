@@ -250,10 +250,10 @@
                             } else if (role != null && role.equals(AuthDAO.SELLER_ROLE)) {
                             %>
                          <a class="btn btn-lg btn-toolbar dropdown dropdown-toggle"
-                           target="body" href="/Clothing/addItem.jsp">Add item</a> <a
-                           class="btn btn-lg btn-toolbar dropdown dropdown-toggle"
-                           target="body" href="/Clothing/sellerOrders.jsp">Manage Orders</a> <a
-                           class="btn btn-lg btn-toolbar dropdown dropdown-toggle"
+                           target="body" href="/Clothing/addItem.jsp">Add item</a> 
+                         <a class="btn btn-lg btn-toolbar dropdown dropdown-toggle"
+                           target="body" href="/Clothing/sellerOrders.jsp">Manage Orders</a> 
+                         <a class="btn btn-lg btn-toolbar dropdown dropdown-toggle"
                            target="body" href="/Clothing/viewuser.jsp">View Profile</a> 
                         <%
                             }
